@@ -1,0 +1,24 @@
+
+{
+  "name": "Galera do Fundão",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "TODO: ADD description",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [ "<all_urls>" ],
+      "resources": [ "data/votes.json" ]
+    }
+  ],
+  "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["extension.js"]
+        }
+    ]
+}
