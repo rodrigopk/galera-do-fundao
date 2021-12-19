@@ -12,7 +12,19 @@
   "permissions": ["scripting"],
   "web_accessible_resources": [
     {
-      "matches": [ "<all_urls>" ],
+      "matches": [
+        "https://*.google.com/*",
+        "https://www.facebook.com/*",
+        "https://www.reddit.com/*",
+        "https://medium.com/*",
+        "https://www.youtube.com/*",
+        "https://*.wikipedia.org/*",
+        "https://twitter.com/*",
+        "https://www.instagram.com/*",
+        "https://web.whatsapp.com/*",
+        "https://web.telegram.org/*",
+        "https://www.camara.leg.br/*"
+      ],
       "resources": [ "data/votes.json" ]
     }
   ],
