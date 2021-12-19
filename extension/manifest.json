@@ -1,10 +1,14 @@
 
 {
   "name": "Galera do Fundão",
-  "action": {},
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
   "manifest_version": 3,
-  "version": "0.1",
-  "description": "TODO: ADD description",
+  "version": "0.0.1",
+  "description": "Extensão de browser que realça o nome de deputados que votaram a favor do aumento do Fundão eleitoral.",
   "permissions": [
     "activeTab",
     "scripting"
