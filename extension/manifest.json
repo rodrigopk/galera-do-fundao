@@ -9,7 +9,7 @@
   "manifest_version": 3,
   "version": "0.0.1",
   "description": "Extensão de browser que realça o nome de deputados que votaram a favor do aumento do Fundão eleitoral.",
-  "permissions": ["scripting"],
+  "permissions": [],
   "web_accessible_resources": [
     {
       "matches": [
